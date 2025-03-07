@@ -1,0 +1,161 @@
+[debug] [2025-03-07T01:40:39.852Z] ----------------------------------------------------------------------
+[debug] [2025-03-07T01:40:39.855Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Warriors\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-03-07T01:40:39.855Z] CLI Version:   13.33.0
+[debug] [2025-03-07T01:40:39.855Z] Platform:      win32
+[debug] [2025-03-07T01:40:39.855Z] Node Version:  v20.17.0
+[debug] [2025-03-07T01:40:39.855Z] Time:          Thu Mar 06 2025 20:40:39 GMT-0500 (hora estándar de Colombia)
+[debug] [2025-03-07T01:40:39.855Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-07T01:40:40.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-07T01:40:40.095Z] > authorizing via signed-in user (wiinstoncc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\marvic
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-07T01:40:43.433Z] Using project from CLI flag: marvic-b8842
+[debug] [2025-03-07T01:40:43.434Z] Checked if tokens are valid: false, expires at: 1741310839638
+[debug] [2025-03-07T01:40:43.434Z] Checked if tokens are valid: false, expires at: 1741310839638
+[debug] [2025-03-07T01:40:43.435Z] > refreshing access token with scopes: []
+[debug] [2025-03-07T01:40:43.436Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-03-07T01:40:43.436Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-07T01:40:44.414Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-03-07T01:40:44.414Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-07T01:40:44.430Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 [none]
+[debug] [2025-03-07T01:40:45.421Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 200
+[debug] [2025-03-07T01:40:45.422Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 {"projectId":"marvic-b8842","projectNumber":"341444282988","displayName":"marvic","name":"projects/marvic-b8842","resources":{"hostingSite":"marvic-b8842"},"state":"ACTIVE","etag":"1_5d5962fd-31e1-4c6f-a79e-41d895cdf5e4"}
+[info] i  Using project marvic-b8842 (marvic) 
+[info] 
+=== Hosting Setup
+[debug] [2025-03-07T01:40:45.434Z] Checked if tokens are valid: true, expires at: 1741315243414
+[debug] [2025-03-07T01:40:45.434Z] Checked if tokens are valid: true, expires at: 1741315243414
+[debug] [2025-03-07T01:40:45.435Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 [none]
+[debug] [2025-03-07T01:40:46.038Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 200
+[debug] [2025-03-07T01:40:46.039Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 {"projectId":"marvic-b8842","projectNumber":"341444282988","displayName":"marvic","name":"projects/marvic-b8842","resources":{"hostingSite":"marvic-b8842"},"state":"ACTIVE","etag":"1_5d5962fd-31e1-4c6f-a79e-41d895cdf5e4"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-03-07T01:41:48.385Z] ----------------------------------------------------------------------
+[debug] [2025-03-07T01:41:48.389Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Warriors\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-03-07T01:41:48.390Z] CLI Version:   13.33.0
+[debug] [2025-03-07T01:41:48.390Z] Platform:      win32
+[debug] [2025-03-07T01:41:48.390Z] Node Version:  v20.17.0
+[debug] [2025-03-07T01:41:48.390Z] Time:          Thu Mar 06 2025 20:41:48 GMT-0500 (hora estándar de Colombia)
+[debug] [2025-03-07T01:41:48.391Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-07T01:41:48.620Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-07T01:41:48.620Z] > authorizing via signed-in user (wiinstoncc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\marvic
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-07T01:42:11.629Z] Using project from CLI flag: marvic-b8842
+[debug] [2025-03-07T01:42:11.630Z] Checked if tokens are valid: true, expires at: 1741315243414
+[debug] [2025-03-07T01:42:11.630Z] Checked if tokens are valid: true, expires at: 1741315243414
+[debug] [2025-03-07T01:42:11.631Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 [none]
+[debug] [2025-03-07T01:42:12.381Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 200
+[debug] [2025-03-07T01:42:12.381Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 {"projectId":"marvic-b8842","projectNumber":"341444282988","displayName":"marvic","name":"projects/marvic-b8842","resources":{"hostingSite":"marvic-b8842"},"state":"ACTIVE","etag":"1_5d5962fd-31e1-4c6f-a79e-41d895cdf5e4"}
+[info] i  Using project marvic-b8842 (marvic) 
+[info] 
+=== Hosting Setup
+[debug] [2025-03-07T01:42:12.394Z] Checked if tokens are valid: true, expires at: 1741315243414
+[debug] [2025-03-07T01:42:12.394Z] Checked if tokens are valid: true, expires at: 1741315243414
+[debug] [2025-03-07T01:42:12.395Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 [none]
+[debug] [2025-03-07T01:42:12.985Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 200
+[debug] [2025-03-07T01:42:12.985Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marvic-b8842 {"projectId":"marvic-b8842","projectNumber":"341444282988","displayName":"marvic","name":"projects/marvic-b8842","resources":{"hostingSite":"marvic-b8842"},"state":"ACTIVE","etag":"1_5d5962fd-31e1-4c6f-a79e-41d895cdf5e4"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-03-07T01:42:28.319Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-03-07T01:42:29.129Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-03-07T01:42:29.129Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.4.0","browserURL":"https://www.gstatic.com/firebasejs/11.4.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.4.0/firebase.tgz"},"live":{"version":"11.4","browserURL":"https://www.gstatic.com/firebasejs/live/11.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.4/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.4.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.4.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.4.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.4.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.4.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.4.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.4.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.4.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.4.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.4.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.4.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.4.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.4.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.memory.js"}}
+[info] +  Wrote marvic/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\xampp\htdocs\marvic is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=807850587&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-03-07T01:42:47.804Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-03-07T01:42:47.804Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-03-07T01:42:48.371Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-03-07T01:42:48.371Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-03-07T01:42:48.383Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-03-07T01:42:49.008Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-03-07T01:42:49.009Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"WiicstonC","id":124397561,"node_id":"U_kgDOB2on-Q","avatar_url":"https://avatars.githubusercontent.com/u/124397561?v=4","gravatar_id":"","url":"https://api.github.com/users/WiicstonC","html_url":"https://github.com/WiicstonC","followers_url":"https://api.github.com/users/WiicstonC/followers","following_url":"https://api.github.com/users/WiicstonC/following{/other_user}","gists_url":"https://api.github.com/users/WiicstonC/gists{/gist_id}","starred_url":"https://api.github.com/users/WiicstonC/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/WiicstonC/subscriptions","organizations_url":"https://api.github.com/users/WiicstonC/orgs","repos_url":"https://api.github.com/users/WiicstonC/repos","events_url":"https://api.github.com/users/WiicstonC/events{/privacy}","received_events_url":"https://api.github.com/users/WiicstonC/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"WINSTON CRUZ","company":"colombia","blog":"","location":"meta","email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":2,"public_gists":0,"followers":0,"following":0,"created_at":"2023-02-03T19:39:22Z","updated_at":"2024-09-16T19:13:09Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":14041,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as WiicstonC 
+[info] 
+[debug] [2025-03-07T01:43:28.320Z] >>> [apiv2][query] GET https://api.github.com/repos/marvic/actions/secrets/public-key type=owner
+[debug] [2025-03-07T01:43:30.151Z] <<< [apiv2][status] GET https://api.github.com/repos/marvic/actions/secrets/public-key 404
+[debug] [2025-03-07T01:43:30.151Z] <<< [apiv2][body] GET https://api.github.com/repos/marvic/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-07T01:43:41.296Z] >>> [apiv2][query] GET https://api.github.com/repos/marvic/actions/secrets/public-key type=owner
+[debug] [2025-03-07T01:43:42.216Z] <<< [apiv2][status] GET https://api.github.com/repos/marvic/actions/secrets/public-key 404
+[debug] [2025-03-07T01:43:42.216Z] <<< [apiv2][body] GET https://api.github.com/repos/marvic/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-07T01:44:23.344Z] >>> [apiv2][query] GET https://api.github.com/repos/marvicfirebase init hosting/actions/secrets/public-key type=owner
+[debug] [2025-03-07T01:44:24.438Z] <<< [apiv2][status] GET https://api.github.com/repos/marvicfirebase init hosting/actions/secrets/public-key 404
+[debug] [2025-03-07T01:44:24.439Z] <<< [apiv2][body] GET https://api.github.com/repos/marvicfirebase init hosting/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
